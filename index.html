@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+  <main class="main-container">
+   <header class="input-container">
+    <input type="text" placeholder="search-city"
+      class="city-input"/>
+      <button class="search-btn">
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </button>
+   </header>
+
+   <section class="weather-info" style="display: none;" >
+    <div class="location-data-container">
+      <div class="location">
+        <span class="material-symbols-outlined">
+          location_on
+        </span>
+        <h4 class="country_txt">Mumbai</h4>
+      </div>
+      <h5 class="current-date-txt regular-txt">Wed,07 Aug</h5>
+    </div>
+
+    <div class="weather-summary-container">
+      <img src="assets\weather\clouds.svg" alt="" class="weather-summary-img">
+      <div class="weather-summary-info">
+        <h1 class="temp-txt">29°C</h1>
+        <h3 class="condition-txt regular-txt">clouds</h3>
+      </div>
+    </div>
+    <div class="weather-conditions-container">
+      <div class="conditions-item">
+        <span class="material-symbols-outlined">
+          water_drop
+        </span>
+        <div class="condition-info">
+          <h5 class="regular-txt">item</h5>
+          <h5 class="humdity-txt">55%</h5>
+        </div>
+
+      </div>
+      <div class="conditions-item">
+        <span class="material-symbols-outlined">
+          air
+        </span>
+        <div class="condition-info">
+          <h5 class="regular-txt">Wind Speed</h5>
+          <h5 class="wind-txt">2 M/s</h5>
+        </div>
+
+      </div>
+    </div>
+    <!-- <div class="forecast-items-container">
+      <div class="forecast-item">
+        <h5 class="forescast-item-date regular-txt">05</h5>
+        <img src="assets\weather\thunderstorm.svg" alt="" class="forecast-item-img">
+        <h5 class="forecast-item-temp">29</h5>
+    
+      </div>
+      <div class="forecast-item">
+        <h5 class="forescast-item-date regular-txt">05</h5>
+        <img src="assets\weather\thunderstorm.svg" alt="" class="forecast-item-img">
+        <h5 class="forecast-item-temp">29</h5>
+    
+      </div>
+      <div class="forecast-item">
+        <h5 class="forescast-item-date regular-txt">05</h5>
+        <img src="assets\weather\thunderstorm.svg" alt="" class="forecast-item-img">
+        <h5 class="forecast-item-temp">29</h5>
+    
+      </div>
+      <div class="forecast-item">
+        <h5 class="forescast-item-date regular-txt">05</h5>
+        <img src="assets\weather\thunderstorm.svg" alt="" class="forecast-item-img">
+        <h5 class="forecast-item-temp">29</h5>
+    
+      </div> -->
+    </div>
+   </section>
+    <section class="search-city section-message">
+      <img  src="assets\message\search-city.png" alt="">
+      <div>
+        <h1>Search City</h1>
+        <h4 class="regular-txt">
+          Find out the weather conditions of the city
+        </h4>
+      </div>
+      </section>
+
+      <section class="not-found section-message" style="display: none;">
+      <img class="not-found-img" src="assets\message\not-found.png" alt="">
+      <div>
+        <h1>Search City</h1>
+        <h4 class="regular-txt">
+          Find out the weather conditions of the city
+        </h4>
+      </div>
+
+
+    </section>
+      <div class="weather-app">
+      <!-- color change -->
+</div>
+  </main>
+  
+</body>
+</html>
